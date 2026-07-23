@@ -22,21 +22,6 @@ Workshop ini bertujuan untuk mempelajari dasar-dasar pengembangan website (Front
 - ✅ Dasar JavaScript
 - ✅ Struktur Website Modern
 
----
-
-## 📂 Struktur Project
-
-```
-Workshop-Frontend/
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
-```
 
 ---
 
