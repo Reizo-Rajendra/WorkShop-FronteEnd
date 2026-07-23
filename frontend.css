@@ -50,6 +50,12 @@ h1, h2, h3, .logo {
     font-family: var(--font-mono);
 }
 
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -131,5 +137,81 @@ h1, h2, h3, .logo {
 
 .highlight{
     color: var(--accent);
+}
 
+.subtit{
+    color: var(--text-muted);
+    margin-bottom: 28px;
+    max-width: 240px;
+}
+
+.btn-primary{
+    display: inline-block;
+    background-color: var(--accent);
+    color:#0d1b2a; 
+    font-family: var(--font-mono);
+    font-weight: 700;
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover{
+    transform: translate(-2px);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 14px 28px rgba(79, 70, 229, 0.45);
+    filter: brightness(1.08);
+}  
+
+
+/*section skill*/
+
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.skill-card {
+    flex: 1 1 300px;
+    min-height: 200px;
+    background-color: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-tag {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    background: rgba(100, 255, 218, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.skill-card h3 {
+    margin: 16px 0 8px;
+    font-size: 18px;
+}
+
+.skill-card p {
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.6;
 }
